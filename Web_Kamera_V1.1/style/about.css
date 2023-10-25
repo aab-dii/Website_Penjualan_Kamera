@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--secondary-color);
+    --primary-color: #fcfcfc;
+    --secondary-color: #F8F0E5;
+    --third-color: #DAC0A3;
+    --fourth-color : #0F2C59;
+    --primary-text: white;
+    --secondary-text: black;
+}
+
+.dark-theme{
+    --primary-color: #030303;
+    --secondary-color: #070f1a;
+    --third-color: #253f5c;
+    --fourth-color : #f0d3a6;
+    --primary-text: black;
+    --secondary-text: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--fourth-color);
+    color: var(--secondary-text);
+}
+
+header .pt2{
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    height: 670px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.judul{
+    color: var(--secondary-color);
+}
+
+#icon{
+    width: 50px;
+    padding-right: 20px;
+}
+
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+}
+
+
+.bio {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--secondary-text);
+}
+
+p {
+    font-size: 18px; 
+    margin-bottom: 15px;
+    color: var(--secondary-text);
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.toko{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: var(--primary-text);
+    font-size: 20px;
+}
+
+.footer-content{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fourth-color);;
+    height: 50px;
+}
+.footer-content p{
+    color: var(--primary-text);
+}
